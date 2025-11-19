@@ -1,0 +1,23 @@
+.category-scroll {
+  overflow-x: auto;
+  white-space: nowrap;
+  max-width: 400px;
+  scrollbar-width: none;      /* Firefox */
+}
+
+.category-scroll::-webkit-scrollbar {
+  display: none;              /* Chrome, Safari */
+}
+
+.category-btn {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 8px 12px;
+  transition: all 0.2s ease;
+}
+
+.category-btn:hover {
+  color: #0d6efd;
+  transform: scale(1.1);
+}
